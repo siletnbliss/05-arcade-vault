@@ -10,15 +10,6 @@ Arcade Vault is an online platform for playing games and competing for the highe
 
 The repo is still close to the Create Next App scaffold. `app/page.tsx` and the metadata in `app/layout.tsx` are placeholders.
 
-## Commands
-
-- `npm run dev`: dev server (Turbopack) at http://localhost:3000
-- `npm run build`: production build, which also type-checks
-- `npm run start`: serve the production build
-- `npm run lint`: ESLint 9 flat config (`eslint.config.mjs`, Next core-web-vitals and TypeScript presets)
-
-No test framework is configured yet.
-
 ## Stack and non-default config
 
 - Next.js 16.4 (App Router only, in `app/`), React 19.3, TypeScript strict mode. The `@/*` path alias maps to the repo root.
