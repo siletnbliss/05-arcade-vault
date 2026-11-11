@@ -1,6 +1,6 @@
 # SPEC 01 — MVP visual screens
 
-> **Status:** Approved
+> **Status:** Implemented
 > **Depends on:** None
 > **Date:** 2026-11-09
 > **Objective:** Port the five screens in `references/templates/` (Library, Game Detail, Player, Auth, Hall of Fame) to Next.js App Router routes with English copy and static mock data, without implementing any real game.
