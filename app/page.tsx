@@ -1,12 +1,16 @@
-export default function Home() {
+import { LibraryBrowser } from "@/components/library-browser";
+import { GAMES } from "@/lib/games";
+
+export default function LibraryPage() {
   return (
-    <main className="av-main">
+    <div className="fade-in">
       <section className="av-hero">
-        <h1 className="flicker">Arcade Vault</h1>
-        <p className="sub">
-          Insert coin<span className="blink">_</span>
-        </p>
+        <h1 className="flicker">ARCADE VAULT</h1>
+        <div className="sub">
+          INSERT A COIN TO PLAY <span className="blink">_</span>
+        </div>
       </section>
-    </main>
+      <LibraryBrowser games={GAMES} />
+    </div>
   );
 }
